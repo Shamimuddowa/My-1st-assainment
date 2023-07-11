@@ -54,8 +54,10 @@ nav a{
 .banner_p{
     font-size: 18px;
     margin-bottom: 32px;
+    font-weight: 400;
+    color: #27272799;
 }
-.banner_btn{
+.btn{
     padding: 20px 40px;
     font-size: 20px;
     border-radius: 8px;
@@ -67,4 +69,96 @@ nav a{
     padding-right: 200px;
     width: 500px;
     height: 600px;
+}
+
+/* section_1 section  */
+.section_title{
+    text-align: center;
+    padding: 150px 0px 0px 0px;
+}
+.section_1_h3{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.section_1_p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #27272799;
+    margin-bottom: 30px;
+}
+
+/* section_2 section  */
+
+.folower123{
+    display: flex;
+    justify-content: space-around;
+    /* margin: 50px 200px 0px 200px; */
+    padding: 50px 200px 0px 200px;
+
+}
+.flower1{
+    width: 350px;
+    height: 500px;
+    background-color: #A7216226;
+    border-radius: 300px 300px 0px 0px;
+}
+.flower2{
+    width: 350px;
+    height: 500px;
+    background-color: #0597A026;
+    border-radius: 300px 300px 0px 0px;
+}
+.flower3{
+    width: 350px;
+    height: 500px;
+    background-color: #477D1126;
+    border-radius: 300px 300px 0px 0px;
+}
+.flower{
+    display: block;
+    padding: 30px;
+}
+
+/* section_3 Section  */
+
+.section_3{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    border: 2px solid #2727270D;
+    /* padding: 00px 200px 0px 200px; */
+    margin: 50px 200px 0px 200px;
+}
+.services{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 80px;
+}
+.servicecontainer{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.section_4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.05);
+    margin-top: 50px;
+    padding: 100px 250px 100px 250px;
+}
+.hot_deal_h3{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.hot_deal_p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #27272799;
+    margin-bottom: 24px;
 }
