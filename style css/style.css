@@ -93,7 +93,7 @@ nav a{
 .folower123{
     display: flex;
     justify-content: space-around;
-    padding: 50px 200px 0px 200px;
+    padding: 20px 200px 0px 200px;
 }
 .flower1{
     background-color: #A7216226;
@@ -157,6 +157,15 @@ nav a{
     font-weight: 400;
     color: #27272799;
     margin-bottom: 24px;
+    text-align: center;
+}
+.hot_deal_btn{
+    padding: 15px 25px;
+    font-size: 20px;
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+    margin-left: 200px;
 }
 .off_red{
     color: #E55473;
