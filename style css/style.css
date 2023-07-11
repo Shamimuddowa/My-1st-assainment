@@ -58,7 +58,7 @@ nav a{
     color: #27272799;
 }
 .btn{
-    padding: 20px 40px;
+    padding: 15px 25px;
     font-size: 20px;
     border-radius: 8px;
     background: #E55473;
@@ -74,7 +74,7 @@ nav a{
 /* section_1 section  */
 .section_title{
     text-align: center;
-    padding: 150px 0px 0px 0px;
+    padding: 100px 0px 0px 0px;
 }
 .section_1_h3{
     font-size: 40px;
@@ -95,29 +95,26 @@ nav a{
     justify-content: space-around;
     /* margin: 50px 200px 0px 200px; */
     padding: 50px 200px 0px 200px;
-
 }
 .flower1{
-    width: 350px;
-    height: 500px;
     background-color: #A7216226;
     border-radius: 300px 300px 0px 0px;
 }
 .flower2{
-    width: 350px;
-    height: 500px;
     background-color: #0597A026;
     border-radius: 300px 300px 0px 0px;
 }
 .flower3{
-    width: 350px;
-    height: 500px;
+    /* width: 350px;
+    height: 500px; */
     background-color: #477D1126;
     border-radius: 300px 300px 0px 0px;
 }
 .flower{
-    display: block;
-    padding: 30px;
+    padding: 60px 50px 0px 50px;
+    width: 250px;
+    height: 350px;
+    align-items: center;
 }
 
 /* section_3 Section  */
@@ -142,7 +139,7 @@ nav a{
     font-size: 20px;
     font-weight: 500;
 }
-
+        /* sectio_4  */
 .section_4{
     display: flex;
     justify-content: space-around;
@@ -161,4 +158,61 @@ nav a{
     font-weight: 400;
     color: #27272799;
     margin-bottom: 24px;
+}
+/* .hot_deal_img{
+    width: 200px;
+    height: 300px;
+} */
+       /* section_5  */
+
+.section_5{
+    
+       }
+.section_5_img{
+    display: flex;
+    justify-content: space-around;
+    /* margin: 50px 240px; */
+    margin: 50px 200px 50px 200px;
+}
+.img_1{
+    margin-right: 20px;
+    width: 250px;
+}
+
+/* section_6  */
+
+
+.section_6{
+    background-image: url('../images/Rectangle\ 9.png');
+    margin: 50px 200px 50px 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    border-radius: 8px;
+}
+.your_name{
+    width: 400px;
+    height: 55px;
+    border-radius: 8px;
+    background: #FFF;
+}
+footer{
+    background-color: black;
+    height: 300px;
+    text-align: center;
+
+}
+.footer_p{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer_p1{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
 }
